@@ -107,4 +107,4 @@ llama_perf_context_print:    graphs reused =         30
 
 # 三、参考文献：
 1. [基于llama.cpp的QwQ32B模型推理](https://blog.csdn.net/hbkybkzw/article/details/146327526)
-2. [如何用c++调用大模型——关于使用llama.cpp的lib库的简易教程] (https://blog.csdn.net/zh515858237/article/details/151251910?spm=1011.2415.3001.5331)
+2. [如何用c++调用大模型——关于使用llama.cpp的lib库的简易教程](https://blog.csdn.net/zh515858237/article/details/151251910?spm=1011.2415.3001.5331)
