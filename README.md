@@ -33,6 +33,7 @@ cd simple-example-for-llama.cpp
 ## 生成makefile
 ```bash
 cmake -B build
+# g++ main.cpp -I./include -L/usr/local/cuda/lib64 -L./lib -lllama -lggml -lggml-base -lggml-cpu -lggml-cuda -o llama-simple -std=c++11 -fopenmp -lcudart -lcublas  -lcuda -pthread -lm -ldl
 ```
 运行结果：
 ```bash
@@ -71,7 +72,7 @@ cmake --build build --config Release -j --clean-first
 ## 执行
 
 ```bash
-./build/llama-simple -m ~/private_data/models/Qwen/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q8_0.gguf  "您好!"
+./build/llama-simple -m /root/private_data/models/Qwen/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q8_0.gguf  "您好!"
 ```
 运行结果：
 
