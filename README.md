@@ -33,7 +33,7 @@ cd simple-example-for-llama.cpp
 ## 生成makefile
 ```bash
 cmake -B build
-# g++ main.cpp -I./include -L/usr/local/cuda/lib64 -L./lib -lllama -lggml -lggml-base -lggml-cpu -lggml-cuda -o llama-simple -std=c++11 -fopenmp -lcudart -lcublas  -lcuda -pthread -lm -ldl
+# 也可以直接一句话编译：g++ main.cpp -I./include -L/usr/local/cuda/lib64 -L./lib -lllama -lggml -lggml-base -lggml-cpu -lggml-cuda -o llama-simple -std=c++11 -fopenmp -lcudart -lcublas  -lcuda -pthread -lm -ldl
 ```
 运行结果：
 ```bash
